@@ -1,0 +1,284 @@
+html {
+
+height: 100%;
+}
+
+header {
+	background: #ffffff;
+	border-bottom-color: #cccccc;
+	width: 100%;
+	height: 80px;
+	padding: 20px -200px; 
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+}
+
+h2 {
+	background-color: #4aaaa5;
+	font-family:'Georgia', Times, Times New Roman, serif;
+	color: #ffffff;
+	font-size: 28px;
+	width: 250px;
+	text-align: center;
+	margin-left: 200px;
+	height: 60px;
+	margin-top: 0px;
+	padding-top: 20px;
+}
+
+#hr1 {
+	background-color: #777777;
+	height: 5px;
+	width: 620px;
+	align-content: center;
+	
+}
+
+#hr2 {
+	background-color: #777777;
+	height: 3px;
+	width: 210px;
+	align-content: center;
+
+}
+
+.header {
+	float: left
+
+}
+
+}
+.nav {
+	float: right;
+
+}
+
+h3 {
+	color: #4aaaa5;
+	font-family:'Georgia', Times, Times New Roman, serif;
+	font-size: 28px;
+	width: 200px;
+	background-color: #ffffff;
+	padding-left: 20px;
+}
+
+h4 {
+	color: #4aaaa5;
+	font-family:'Georgia', Times, Times New Roman, serif;
+	font-size: 22px;
+	width: 200px;
+	background-color: #ffffff;
+	padding-left: 30px;
+	padding-bottom: 5px;
+}
+
+body {
+	background-image: url('../images/bright_squares.png');
+	background-repeat: repeat;
+	margin-top: 0px;
+	padding-bottom: 50px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: block;
+	min-height: 100%;
+	
+
+}
+
+nav {
+	float: right;
+	margin-top: 20px;
+	margin-right: 400px;
+
+}
+
+
+
+footer {
+	bottom: 0 !important; 
+	position: sticky;
+	background-color: #666666;
+	border-top-color: #4aaaa5;
+	border-top-width: 5px;
+	border-top-style: solid;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #ffffff;
+	text-align: center; 
+	width: 100%;
+	height: 50px;
+	clear: both;
+	margin-bottom: -56px;
+	padding-bottom: 0; 
+}
+
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+    line-height:0;
+}
+.cf:after {
+    clear:both;
+}
+
+section {
+	width: 960px;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 20px;
+}
+
+aside {
+	width: 270px;
+	float: right;
+	position: relative;
+	text-align: center;
+	background-color: #ffffff;
+	height: 200px;
+	
+}
+
+article {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	width: 650px;
+	float: left;
+	background-color: #ffffff;
+	margin-bottom: 30px;
+
+}
+
+a {
+	text-decoration: none;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+
+}
+
+	a:hover { color: pink; }
+
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+
+input[type=text] {
+					width: 200px;
+    				box-sizing: border-box;
+    				margin-top: 10px;
+    				margin-bottom: 10px;
+    			}
+
+form { 
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		color: #777777;
+		margin-left: 20px;
+		margin-top: 20px;
+ }
+
+ textarea {
+ 	width: 450px;
+	height: 300px;
+	box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 20px;
+ }
+
+ input[type=submit] {
+   	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #ffffff;
+	margin-left: 10px;
+	margin-top: 20px;
+	width: 100px;
+	height: 40px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #4aaaa5;
+   	font-size: 18px;
+	border-color: #ffffff;
+	border-style: none;
+
+}
+
+.right {
+	margin-top: 30px;
+	float: right;
+	margin-right: 40px;
+	display: flex;
+	flex-direction: column;
+
+} 
+
+.left {
+	margin-top: 30px;
+	float: left;
+	margin-left: 40px;
+	display: flex;
+	flex-direction: column;
+}
+
+.picture1 {
+	width: 270px;
+	height: 150px;
+	margin-bottom: 30px;
+	background-image: url('../images/cat.jpg');
+	background-repeat: no-repeat;
+	background-size: 270px;
+}
+
+.picture2 {
+	width: 270px;
+	height: 150px;
+	margin-bottom: 30px;
+	background-image: url('../images/dog.jpg');
+	background-repeat: no-repeat;
+	background-size: 270px;
+}
+
+.picture3 {
+	width: 270px;
+	height: 150px;
+	margin-bottom: 30px;
+	background-image: url('../images/kitty.jpg');
+	background-repeat: no-repeat;
+	background-size: 270px;
+	
+
+}
+
+.picture4 {
+	width: 270px;
+	height: 150px;
+	margin-bottom: 30px;
+	background-image: url('../images/rhino.jpg');
+	background-repeat: no-repeat;
+	background-size: 270px;
+
+
+}
+
+.picture5 {
+	width: 270px;
+	height: 150px;
+	margin-bottom: 30px;
+	background-image: url('../images/tiger.jpg');
+	background-size: 270px;
+
+}
+
+h5 {
+	background-color: #4aaaa5;
+	font-family:'Georgia', Times, Times New Roman, serif;
+	color: #ffffff;
+	font-size: 18px;
+	width: 270px;
+	text-align: center;
+	height: 30px;
+	margin-top: 100px;
+}
+
+.push {
+	height: 700px;
+	width: 100%;
+}
